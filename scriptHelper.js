@@ -17,8 +17,17 @@ function addDestinationInfo(document, name, diameter, star, distance, moons, ima
 }
 
 function validateInput(testInput) {
+   let numberInput = Number(testInput);
+   if(testInput === ""){
+    return "Empty";
+   }
+    else if(testInput === NaN) {
+        return "Not a Number";
+    }
+        
+    }
    
-}
+
 
 function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
    
