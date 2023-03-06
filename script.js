@@ -1,7 +1,4 @@
-let button = document.getElementById("formSubmit");
-button.addEventListener("click", function() {
-console.log(pilot.name);
-})
+
 
 
 // Write your JavaScript code here!
