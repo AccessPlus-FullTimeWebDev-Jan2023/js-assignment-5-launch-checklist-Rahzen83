@@ -22,10 +22,10 @@ function validateInput(testInput) {
    if(testInput === ""){
     return "Empty";
    }
-    else if(isNaN(testInput)) {
+    else if(isNaN(numberInput)) {
         return "Not a Number";
     }
-    else if(isNaN(testInput) === false){
+    else if(isNaN(numberInput) === false){
         return "Is a Number"
     }
         
@@ -34,6 +34,10 @@ function validateInput(testInput) {
 
 
 function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
+   let pilot = getElementById("pilotStatus");
+   let copilot = getElementById("copilotStatus");
+   let fuelLevel = getElementById("fuelStatus");
+   let cargoLevel = getElementById("cargoStatus");
    
 }
 
